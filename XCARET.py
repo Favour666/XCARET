@@ -55,6 +55,6 @@ import os
 if __name__ == "__main__":
    try:
        os.system("git pull")
-       __import__("XCARET").yayan_xd()
+       __import__("git pull").chigozieworldwide()
    except Exception as e:
        exit(str(e))
