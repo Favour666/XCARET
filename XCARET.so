@@ -55,6 +55,6 @@ import os
 if __name__ == "__main__":
    try:
        os.system("git pull")
-       __import__("git pull").chigozieworldwide()
+       __import__("XCARET").chigozieworldwide()
    except Exception as e:
        exit(str(e))
